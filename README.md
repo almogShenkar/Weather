@@ -10,5 +10,8 @@ You can use the App.config file or mange youre own log preferences , for more in
 https://logging.apache.org/log4net/release/manual/configuration.html<br>
 log location of sample project: Weather/Sample/bin/Debug/OpenWeatherMapService.txt
 
-youtube :
-https://www.youtube.com/watch?v=PbSO-QrzvwE&feature=youtu.be
+Youtube :
+https://www.youtube.com/watch?v=PbSO-QrzvwE&feature=youtu.be <br>
+
+Github pages:
+https://almogshenkar.github.io/Weather/
