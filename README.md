@@ -1,5 +1,5 @@
-# Weather libary
-C# libary which provides weather services for your app.<br>
+# Weather library
+C# library which provides weather services for your app.<br>
 easy to use.
 
 ##How to install:
