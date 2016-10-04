@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Weather.io : c# weather libary">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Weather.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/almogShenkar/Weather">View on GitHub</a>
+
+          <h1 id="project_title">Weather.io</h1>
+          <h2 id="project_tagline">c# weather libary</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/almogShenkar/Weather/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/almogShenkar/Weather/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
+<a id="welcome-weatherlib" class="anchor" href="#welcome-weatherlib" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Welcome WeatherLib</h3>
+
+<p>WeatherLibary is a c# library that provides your app weather service from all over the world.
+By entering the request location you can get the weather right away. </p>
+
+<h3>
+<a id="easy-to-install" class="anchor" href="#easy-to-install" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Easy to install:</h3>
+
+<p>Just Download and add reference from your original project.
+log4net package is required(Nuget packages).</p>
+
+<h3>
+<a id="simple-to-use" class="anchor" href="#simple-to-use" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Simple to use:</h3>
+
+<hr>
+
+<p>var location = new Location(Console.ReadLine());<br>
+                OpenWeatherMapService.SetKey("key from the web service- for example openweathermap");<br>
+                var service =<br>
+                              WeatherDataServiceFactory.GetWeatherDataService(WeatherDataServiceFactory.OPEN_WEATHER_MAP);
+                var data = service.GetWeatherData(location);<br></p>
+
+<hr>
+
+<p>Log file: Weather/sample/bin/debug/OpenWeatherMapService.txt</p>
+
+<h3>
+<a id="authors-and-contributors" class="anchor" href="#authors-and-contributors" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Authors and Contributors</h3>
+
+<p>Tom Yahav <a href="mailto:tommyahav@gmail.com">tommyahav@gmail.com</a>
+Almog Asulin <a href="mailto:almogassu@gmail.com">almogassu@gmail.com</a></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Weather.io maintained by <a href="https://github.com/almogShenkar">almogShenkar</a></p>
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
